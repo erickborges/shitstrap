@@ -1,0 +1,4 @@
+SHITSTRAP
+=========
+
+MOTHERFUCKER!
