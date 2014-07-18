@@ -1,0 +1,579 @@
+/** ERICK BORGES **/
+
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	width:100%;
+	height:100%;
+	font-size:12px;
+	font-family:arial,helvetica,sans-serif;
+	position:relative;
+}
+a {
+	color:#08658F;
+	font-weight:bold;
+}
+a:hover {
+	color:#00374F;
+}
+fieldset {
+	border-width:2px 1px 1px;
+	border-style: solid;
+	border-color:#08658F #CCC #CCC;
+	border-radius:13px 13px 13px 13px;
+	min-height:40px;
+	padding:10px;
+	margin: 0 0 20px;
+	background: url("../img/branco50.png") repeat 0 0 scroll transparent;
+}
+fieldset fieldset {
+	border-color:#555555 #CCC #CCC;
+	margin-bottom:25px;
+}
+form fieldset {
+	padding:20px 15px;
+}
+fieldset legend {
+	background-color: #FFFFFF;
+    border-radius: 8px 8px 4px 4px;
+    border-style: solid;
+    border-width: 2px 1px 0;
+    color: #08658F;
+    font-weight: bold;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+fieldset fieldset legend {
+	color:#333;
+}
+label {
+	font-weight:bold;
+	vertical-align: middle;
+}
+textarea,
+input,
+select {
+	border-width:1px;
+	border-style: solid;
+	border-color:#CCC;
+	border-radius:8px 8px 8px 8px;
+	padding:5px !important;
+}
+textarea {
+	max-width:900px;
+	max-height:300px;
+	min-width:280px;
+	min-height:100px;
+}
+.input_radio input,
+.input_check input {
+	border:none;
+}
+table {
+	width:98%;
+	margin:10px 1%;
+	border-collapse:collapse;
+}
+table tr th,
+table tr td {
+	text-align:left;
+	font-size:12px;
+	padding:8px 5px;
+	border-width:1px;
+	border-style: solid;
+	border-color:#CCC;
+}
+table thead th {
+	color:#FFF;
+	background-color:#0078AE;
+}
+table tbody td {
+	color:#362B36;
+}
+form label {
+	display:inline-block;
+	background-color:#F5F5F5;
+	padding:3px 5px;
+	margin-top:3px;
+}
+form label + * {
+	display:block;
+}
+form select {
+	width:100%;
+}
+hr {
+	background-color: #999999;
+    border: medium none;
+    height: 1px;
+    margin: 10px 0 20px;
+}
+
+.left {
+	float:left;
+	margin-right: 0.4%;
+}
+.right {
+	float:right;
+	margin-left: 0.4%;
+}
+.clear {
+	clear:both;
+}
+.clear-left {
+	clear:left;
+}
+.clear-right {
+	clear:right;
+}
+.inline {
+	display:inline;
+}
+.i-block {
+	display:inline-block;
+	vertical-align:top;
+}
+.block {
+	display:block;
+	width:100%;
+}
+.i-block-group > * {
+	display:inline-block;
+	margin:0 10px 0 0;
+}
+.t-align-right {
+	text-align:right;
+}
+.t-align-center {
+	text-align:center;
+}
+.t-align-left {
+	text-align:left;
+}
+.i-block-group.t-align-right > * {
+	margin-left:10px;
+}
+.v-align-top {
+	vertical-align:top;
+}
+.v-align-middle {
+	vertical-align:middle;
+}
+.v-align-bottom {
+	vertical-align:bottom;
+}
+
+.texto_puro p.i-block {
+	padding:5px;
+}
+.m-bottom {
+	margin-bottom:15px !important;
+}
+.m-top {
+	margin-top:15px;
+}
+.m-left {
+	margin-left:15px;
+}
+.m-right {
+	margin-right:15px;
+}
+.m-tudo {
+	margin:15px;
+}
+.m-bottom-p {
+	margin-bottom:8px !important;
+}
+.m-top-p {
+	margin-top:8px;
+}
+.m-left-p {
+	margin-left:8px;
+}
+.m-right-p {
+	margin-right:8px;
+}
+.m-tudo-p {
+	margin:8px;
+}
+.m-bottom-g {
+	margin-bottom:25px !important;
+}
+.m-top-g {
+	margin-top:25px;
+}
+.m-left-g {
+	margin-left:25px;
+}
+.m-right-g {
+	margin-right:25px;
+}
+.m-tudo-g {
+	margin:25px;
+}
+.m-bottom-z {
+	margin-bottom:0 !important;
+}
+
+.p-top-z {
+	padding-top:0 !important;
+}
+.p-left-z {
+	padding-left:0 !important;
+}
+.p-right-z {
+	padding-right:0 !important;
+}
+.p-tudo-z {
+	padding:0 !important;
+}
+.p-bottom-z {
+	padding-bottom:0 !important;
+}
+
+.destaque {
+	background-color: #F6F6F6;
+    border-color: #D9D9D9;
+    border-style: solid;
+    border-width: 1px 0;
+}
+
+h3, h4, h5, h6 {
+	color: #08658F;
+    font-weight: bold;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3 {
+    font-size: 17px;
+}
+h4 {
+    font-size: 15px;
+}
+h5 {
+    font-size: 13px;
+}
+h6 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/** LARGURAS PARA TATIANE TAN TAN - INI **/
+wauto {
+	width: auto;
+}
+w1 {
+	width: 1%;
+}
+w2 {
+	width: 2%;
+}
+w3 {
+	width: 3%;
+}
+w4 {
+	width: 4%;
+}
+w5 {
+	width: 5%;
+}
+w6 {
+	width: 6%;
+}
+w7 {
+	width: 7%;
+}
+w8 {
+	width: 8%;
+}
+w9 {
+	width: 9%;
+}
+w10 {
+	width: 10%;
+}
+w11 {
+	width: 11%;
+}
+w12 {
+	width: 12%;
+}
+w13 {
+	width: 13%;
+}
+w14 {
+	width: 14%;
+}
+w15 {
+	width: 15%;
+}
+w16 {
+	width: 16%;
+}
+w17 {
+	width: 17%;
+}
+w18 {
+	width: 18%;
+}
+w19 {
+	width: 19%;
+}
+w20 {
+	width: 20%;
+}
+w21 {
+	width: 21%;
+}
+w22 {
+	width: 22%;
+}
+w23 {
+	width: 23%;
+}
+w24 {
+	width: 24%;
+}
+w25 {
+	width: 25%;
+}
+w26 {
+	width: 26%;
+}
+w27 {
+	width: 27%;
+}
+w28 {
+	width: 28%;
+}
+w29 {
+	width: 29%;
+}
+w30 {
+	width: 30%;
+}
+w31 {
+	width: 31%;
+}
+w32 {
+	width: 32%;
+}
+w33 {
+	width: 33%;
+}
+w34 {
+	width: 34%;
+}
+w35 {
+	width: 35%;
+}
+w36 {
+	width: 36%;
+}
+w37 {
+	width: 37%;
+}
+w38 {
+	width: 38%;
+}
+w39 {
+	width: 39%;
+}
+w40 {
+	width: 40%;
+}
+w41 {
+	width: 41%;
+}
+w42 {
+	width: 42%;
+}
+w43 {
+	width: 43%;
+}
+w44 {
+	width: 44%;
+}
+w45 {
+	width: 45%;
+}
+w46 {
+	width: 46%;
+}
+w47 {
+	width: 47%;
+}
+w48 {
+	width: 48%; /** E AIIIIIIIII TATIANE **/
+}
+w49 {
+	width: 49%;
+}
+w50 {
+	width: 50%;
+}
+w51 {
+	width: 51%;
+}
+w52 {
+	width: 52%;
+}
+w53 {
+	width: 53%;
+}
+w54 {
+	width: 54%;
+}
+w55 {
+	width: 55%;
+}
+w56 {
+	width: 56%;
+}
+w57 {
+	width: 57%;
+}
+w58 {
+	width: 58%;
+}
+w59 {
+	width: 59%;
+}
+w60 {
+	width: 60%;
+}
+w61 {
+	width: 61%;
+}
+w62 {
+	width: 62%;
+}
+w63 {
+	width: 63%;
+}
+w64 {
+	width: 64%;
+}
+w65 {
+	width: 65%;
+}
+w66 {
+	width: 66%;
+}
+w67 {
+	width: 67%;
+}
+w68 {
+	width: 68%;
+}
+w69 {
+	width: 69%;
+}
+w70 {
+	width: 70%;
+}
+w71 {
+	width: 71%;
+}
+w72 {
+	width: 72%;
+}
+w73 {
+	width: 73%;
+}
+w74 {
+	width: 74%;
+}
+w75 {
+	width: 75%;
+}
+w76 {
+	width: 76%;
+}
+w77 {
+	width: 77%;
+}
+w78 {
+	width: 78%;
+}
+w79 {
+	width: 79%;
+}
+w80 {
+	width: 80%;
+}
+w81 {
+	width: 81%;
+}
+w82 {
+	width: 82%;
+}
+w83 {
+	width: 83%;
+}
+w84 {
+	width: 84%;
+}
+w85 {
+	width: 85%;
+}
+w86 {
+	width: 86%;
+}
+w87 {
+	width: 87%;
+}
+w88 {
+	width: 88%;
+}
+w89 {
+	width: 89%;
+}
+w90 {
+	width: 90%;
+}
+w91 {
+	width: 91%;
+}
+w92 {
+	width: 92%;
+}
+w93 {
+	width: 93%;
+}
+w94 {
+	width: 94%;
+}
+w95 {
+	width: 95%;
+}
+w96 {
+	width: 96%;
+}
+w97 {
+	width: 97%;
+}
+w98 {
+	width: 98%;
+}
+w99 {
+	width: 99%;
+}
+w100 {
+	width: 100%;
+}
+/** LARGURAS PARA TATIANE TAN TAN - FIM **/
+
+.clearfix {
+	float:none !important;
+	clear:both !important;
+	margin:0 !important;
+	padding:0 !important;
+	height:0 !important;
+	width:100% !important;
+	display:block !important;
+}
